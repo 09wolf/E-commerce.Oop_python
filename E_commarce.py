@@ -52,7 +52,7 @@ class Cart:
         if not self.items:
             print("🛒 Cart is empty")
             return
-        print("\n🛒 Items in Cart:")
+        print("\n🛒 Items in Carts is :")
         total = 0
         for item in self.items:
             price = item.display()
